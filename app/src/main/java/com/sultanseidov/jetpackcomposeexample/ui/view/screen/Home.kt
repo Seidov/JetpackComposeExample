@@ -62,30 +62,23 @@ fun HomeScreen() {
                     Genres(
                         title = "Melodic Techno",
                         R.drawable.ic_headphone,
-                        BlueViolet1,
-                        BlueViolet2,
-                        BlueViolet3
+                        BlueViolet1
+
                     ),
                     Genres(
                         title = "Downtempo",
                         R.drawable.ic_videocam,
-                        LightGreen1,
-                        LightGreen2,
-                        LightGreen3
+                        LightGreen1
                     ),
                     Genres(
                         title = "Deep House",
                         R.drawable.ic_headphone,
-                        OrangeYellow1,
-                        OrangeYellow2,
-                        OrangeYellow3
+                        OrangeYellow1
                     ),
                     Genres(
                         title = "Deep Tech",
                         R.drawable.ic_headphone,
-                        Beige1,
-                        Beige2,
-                        Beige3
+                        Beige1
                     )
                 )
             )
@@ -196,7 +189,7 @@ fun GenresItem(
             .padding(7.5.dp)
             .aspectRatio(1f)
             .clip(RoundedCornerShape(10.dp))
-            .background(genres.darkColor)
+            .background(genres.lightColor)
     ) {
 
         Box(
