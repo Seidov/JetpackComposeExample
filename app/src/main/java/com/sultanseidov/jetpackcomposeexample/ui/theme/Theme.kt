@@ -7,13 +7,13 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-        primary = Purple200,
+        primary = DeepBlue,
         primaryVariant = Purple700,
         secondary = Teal200
 )
 
 private val LightColorPalette = lightColors(
-        primary = Purple500,
+        primary = DeepBlue,
         primaryVariant = Purple700,
         secondary = Teal200
 
@@ -26,9 +26,11 @@ private val LightColorPalette = lightColors(
     onSurface = Color.Black,
     */
 )
-
 @Composable
-fun JetpackComposeExampleTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
+fun BottomNavBarDemoTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    content: @Composable() () -> Unit
+) {
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
@@ -36,9 +38,9 @@ fun JetpackComposeExampleTheme(darkTheme: Boolean = isSystemInDarkTheme(), conte
     }
 
     MaterialTheme(
-            colors = colors,
-            typography = Typography,
-            shapes = Shapes,
-            content = content
+        colors = colors,
+        typography = Typography,
+        shapes = Shapes,
+        content = content
     )
 }
