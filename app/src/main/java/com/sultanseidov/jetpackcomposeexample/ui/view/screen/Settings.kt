@@ -1,4 +1,4 @@
-package com.sultanseidov.jetpackcomposeexample.view
+package com.sultanseidov.jetpackcomposeexample.ui.view
 
 
 

@@ -1,18 +1,21 @@
 package com.sultanseidov.jetpackcomposeexample
 
 
+import android.view.Window
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.graphics.toArgb
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.sultanseidov.jetpackcomposeexample.view.bottomNav.BottomBarScreen
-import com.sultanseidov.jetpackcomposeexample.view.bottomNav.BottomNavGraph
+import com.sultanseidov.jetpackcomposeexample.ui.view.bottomNav.BottomBarScreen
+import com.sultanseidov.jetpackcomposeexample.ui.view.bottomNav.BottomNavGraph
 
 @Composable
 fun MainScreen() {

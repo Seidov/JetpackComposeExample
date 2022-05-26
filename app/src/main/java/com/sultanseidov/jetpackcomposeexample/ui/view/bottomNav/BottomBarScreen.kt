@@ -1,4 +1,4 @@
-package com.sultanseidov.jetpackcomposeexample.view.bottomNav
+package com.sultanseidov.jetpackcomposeexample.ui.view.bottomNav
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home

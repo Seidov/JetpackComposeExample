@@ -1,13 +1,13 @@
-package com.sultanseidov.jetpackcomposeexample.view.bottomNav
+package com.sultanseidov.jetpackcomposeexample.ui.view.bottomNav
 
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.sultanseidov.jetpackcomposeexample.view.HomeScreen
-import com.sultanseidov.jetpackcomposeexample.view.ProfileScreen
-import com.sultanseidov.jetpackcomposeexample.view.SettingsScreen
+import com.sultanseidov.jetpackcomposeexample.ui.view.HomeScreen
+import com.sultanseidov.jetpackcomposeexample.ui.view.ProfileScreen
+import com.sultanseidov.jetpackcomposeexample.ui.view.SettingsScreen
 
 @Composable
 fun BottomNavGraph(navController: NavHostController) {
